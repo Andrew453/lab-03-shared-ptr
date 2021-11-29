@@ -27,7 +27,7 @@ TEST(shares_pointer,initLink) {
   SharedPtr<int> ex(&a);
   ASSERT_EQ(ex.get(),&a);
 }
-
+//
 TEST(shared_pointer, swap) {
   int a = 1;
   int b = 2;
