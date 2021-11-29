@@ -1,7 +1,7 @@
 // Copyright 2021 Your Name <your_email>
 
-#ifndef INCLUDE_SHAREDPTR_HPP_
-#define INCLUDE_SHAREDPTR_HPP_
+#ifndef INCLUDE_SHAREDPTRTESTS_HPP_
+#define INCLUDE_SHAREDPTRTESTS_HPP_
 
 #include <atomic>
 #include <iostream>
@@ -130,4 +130,4 @@ class SharedPtr {
   std::atomic_uint* counter;
 };
 
-#endif  // INCLUDE_SHAREDPTR_HPP_
+#endif  // INCLUDE_SHAREDPTRTESTS_HPP_
